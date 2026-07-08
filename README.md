@@ -1,34 +1,59 @@
-# React + TypeScript + Vite
+# 🎬 Gifs App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicación web desarrollada con React que permite buscar y visualizar GIFs utilizando una API externa. El proyecto implementa componentes reutilizables, consumo de APIs, manejo de estados y pruebas automatizadas, aplicando buenas prácticas de desarrollo frontend.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías y habilidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 💻 Frontend
 
-## React Compiler
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React
+- Bootstrap
+- Vite
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### 🏗️ Arquitectura y buenas prácticas
 
-Note: This will impact Vite dev & build performances.
+- Componentización en React
+- Hooks (`useState`, `useEffect`)
+- Consumo de APIs REST
+- Código limpio y reutilizable
+- Diseño responsivo
+- SEO básico
+- Accesibilidad web
 
-## Expanding the Oxlint configuration
+### 🧪 Testing
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Pruebas unitarias
+- Testing de componentes
+- Validación de funcionalidades
+- Jest
+- React Testing Library
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+### ⚡ Optimización
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- Optimización de imágenes
+- Mejora del rendimiento web
+- Renderizado eficiente de componentes
+
+### 🛠️ Control de versiones y entorno
+
+- Git
+- GitHub
+- Visual Studio Code
+- DevTools del navegador
+- npm
+
+## ✨ Funcionalidades
+
+- 🔎 Búsqueda de GIFs mediante palabras clave
+- 🖼️ Visualización dinámica de resultados
+- 🌐 Consumo de API externa
+- 🧩 Componentes reutilizables
+- 🧪 Pruebas automatizadas para asegurar el correcto funcionamiento
+- 📱 Diseño adaptable a diferentes dispositivos
+
+## 📚 Aprendizajes del proyecto
+
+Este proyecto permitió reforzar conocimientos en React, arquitectura de componentes, consumo de servicios externos, testing y aplicación de buenas prácticas para crear aplicaciones frontend mantenibles y escalables.
